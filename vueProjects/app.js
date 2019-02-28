@@ -41,6 +41,21 @@ new Vue({
     }
 
 });
+new Vue({
+    el:"#vue-app2",
+    data:{
+        
+    },
+    methods:{
+        logName:function () {
+            console.log("你正在输入名字")
+        },
+        logAge:function () {
+            console.log("你正在输入年龄")
+        }
+    }
+
+});
 /*
 * el:element 需要获取的元素，一定是html中的根容器元素.
 * data:是用于数据的存储

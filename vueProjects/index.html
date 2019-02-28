@@ -32,6 +32,15 @@
          </div>
          <a @click.prevent="alert" href="http://wwww.baidu.com">百度一下</a>
      </div>
+     <!--键盘事件-->
+     <div id="vue-app2">
+         <h1>键盘 Events</h1>
+         <label for="">姓名：</label>
+         <!--修饰符-->
+         <input type="text" @keyup.enter="logName">
+         <label for="">年龄：</label>
+         <input type="text" @keyup="logAge">
+     </div>
      <script src = "app.js"></script>
 </body>
 </html>
