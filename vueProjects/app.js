@@ -56,6 +56,35 @@ new Vue({
     }
 
 });
+new Vue({
+    el:"#vue-app3",
+    data:{
+        a:0,
+        b:0,
+        age:20
+    },
+    methods:{
+        // addToA:function () {
+        //     console.log("Add to A");
+        //     return this.a + this.age;
+        // },
+        // addToB:function () {
+        //     console.log("Add to B");
+        //    return this.b + this.age;
+        // }
+    },
+    computed:{
+        addToA:function () {
+            console.log("Add to A");
+            return this.a + this.age;
+        },
+        addToB:function () {
+            console.log("Add to B");
+            return this.b + this.age;
+        }
+    }
+
+});
 /*
 * el:element 需要获取的元素，一定是html中的根容器元素.
 * data:是用于数据的存储

@@ -41,6 +41,18 @@
          <label for="">年龄：</label>
          <input type="text" @keyup="logAge">
      </div>
+     <!--计算属性-->
+     <div id="vue-app3">
+         <h1>Computed 计算属性</h1>
+         <button @click="a++">Add to A</button>
+         <button @click="b++">Add to B</button>
+         <p>A - {{a}}</p>
+         <p>B - {{b}}</p>
+         <!--<p>Age + A = {{addToA()}}</p>-->
+         <!--<p>Age + B = {{addToB()}}</p>-->
+         <p>Age + A = {{addToA}}</p>
+         <p>Age + B = {{addToB}}</p>
+     </div>
      <script src = "app.js"></script>
 </body>
 </html>
