@@ -1,13 +1,13 @@
 <template>
-  <div id="app">
-    <h1>{{title}}</h1>
-    <users/>
+  <div id="--*-">
+   <Header></Header>
+    <Content></Content>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld'
-import Users from "./components/Users";
+import Header from "./components/Header";
+import Content from './components/Content'
 
 export default {
   name: 'App',
@@ -17,8 +17,7 @@ export default {
     }
   },
   components: {
-    Users
-    // HelloWorld
+    Header
   }
 }
 </script>
